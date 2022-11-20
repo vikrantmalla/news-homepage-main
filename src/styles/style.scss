@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+@import './variable';
+@import './nav';
+@import './mobileNav';
+@import './backdrop';
+@import './banner';
+@import './articleAside';
+@import './news';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    max-width: 1440px;
+    max-height: 100vh;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+header, main {
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+}

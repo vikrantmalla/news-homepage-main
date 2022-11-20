@@ -1,0 +1,42 @@
+.right{
+    padding: 2rem 0 0;
+    .right-content{
+        background-color: $colorVerydarkblue;
+        padding: 1rem 1rem 0;
+        height: 100%;
+        .article-status{
+            color: $colorSoftorange;
+            font-size: 1.5rem;
+        }
+        .article-wrapper{
+            margin-top: 1rem;
+            .article{
+                margin-bottom: 1.5rem;
+                padding: 2.5rem 0;
+                &:nth-of-type(1){
+                    border-bottom: 2px solid  $colorDarkgrayishblue;
+                }
+                &:nth-of-type(2){
+                    border-bottom: 2px solid  $colorDarkgrayishblue;
+                }
+                h1{
+                    color: $colorOff-white;
+                    &:hover{
+                       color: $colorSoftorange;
+                    }
+                }
+                p{
+                    color:$colorGrayishblue;
+                    margin-top: 1rem;
+                }
+            }
+        }
+        
+    }
+}
+
+@media (min-width: 62em) {
+    .right{
+        padding: 0;
+    }
+}
